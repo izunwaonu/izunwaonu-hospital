@@ -132,13 +132,13 @@ export async function contactInquiry(data: ContactData) {
 
     // SEND MAIL TO ADMIN
     const adminRes = await resend.emails.send({
-      from: "Kasese Hospital <info@enerwatengineering.com>",
+      from: "Enugu Ezike Hospital <info@enerwatengineering.com>",
       to: "jb@desishub.com",
       subject: `New Contact Inquiry`,
       html: sendAdminInquiry(data),
     });
     const clientRes = await resend.emails.send({
-      from: "Kasese Hospital <info@enerwatengineering.com>",
+      from: "Enugu Ezike Hospital <info@enerwatengineering.com>",
       to: email,
       subject: `Thank You for your Inquiry - Desishub`,
       html: sendClientReply(name),

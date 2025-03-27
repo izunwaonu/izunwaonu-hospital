@@ -145,7 +145,7 @@ export default function AppointmentForm() {
                         },
                       })}
                       type="text"
-                      placeholder="Eg John Doe"
+                      placeholder="Eg Justus Onuh"
                       className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
                     />
                     {errors.name && (
@@ -169,7 +169,7 @@ export default function AppointmentForm() {
                         },
                       })}
                       type="email"
-                      placeholder="Eg johndoe@gmail.com"
+                      placeholder="Eg justusonuh@gmail.com"
                       className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
                     />
                     {errors.email && (
@@ -335,7 +335,7 @@ export default function AppointmentForm() {
                     <MapPin className="w-6 h-6 mt-1" />
                     <div>
                       <p className="font-medium">
-                        P.O.Box 430337, Kasese, Nigeria
+                        P.O.Box 430337, Enugu Ezike, Nigeria
                       </p>
                       {/* <p className="text-emerald-200">Wellness City, 56789</p> */}
                     </div>

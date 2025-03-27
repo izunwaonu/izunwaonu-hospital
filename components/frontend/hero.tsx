@@ -55,7 +55,7 @@ const HeroSection = () => {
 
             <p className="text-sm md:text-xl text-gray-600 mb-8">
               Access expert medical specialists, comprehensive healthcare
-              services, and compassionate treatment—all at Kasese Hospital, your
+              services, and compassionate treatment—all at Enugu Ezike Hospital, your
               trusted healthcare partner.
             </p>
 

@@ -35,7 +35,7 @@ export const siteConfig = {
   social: {
     facebook: "https://facebook.com/izujustus.jamesonu",
     twitter: "https://twitter.com/izunwaonu",
-    instagram: "https://instagram.com/kasesehospital",
+    instagram: "https://instagram.com/Enugu Ezikehospital",
     linkedin: "#",
     youtube: "https://youtube.com/",
   },

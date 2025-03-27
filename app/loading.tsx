@@ -15,7 +15,7 @@ export default function Loading(): React.ReactElement {
   const [messages, setMessages] = useState<Message[]>([]);
 
   const messageTexts: string[] = [
-    "Connecting to Kasese Hospital servers...",
+    "Connecting to Enugu Ezike Hospital servers...",
     "Loading patient information...",
     "Preparing your healthcare dashboard...",
     "Accessing medical services...",

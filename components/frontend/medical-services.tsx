@@ -53,7 +53,7 @@ export default function MedicalServices() {
   return (
     <div className="py-16 ">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <BoldHeading title="Why Choose Kasese Hospital" />
+        <BoldHeading title="Why Choose Enugu Ezike Hospital" />
         <p className="text-lg text-gray-600">
           Experience comprehensive healthcare delivered by our expert team of
           specialists, supported by modern facilities and round-the-clock

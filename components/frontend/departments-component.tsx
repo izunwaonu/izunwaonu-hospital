@@ -348,7 +348,7 @@ const DepartmentComponent = () => {
                   <Mail className="w-6 h-6" />
 
                   <p className="text-lg font-bold">
-                    thekasesehospital@gmail.com
+                    theEnugu Ezikehospital@gmail.com
                   </p>
                 </div>
               </div>

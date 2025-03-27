@@ -53,7 +53,7 @@ const AboutPage = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         {/* Hero Section */}
         <div className="text-center mb-20">
-          <BoldHeading title="About Kasese Hospital" />
+          <BoldHeading title="About Enugu Ezike Hospital" />
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Providing exceptional healthcare services with compassion and
             expertise since 2008. Our commitment to excellence has made us a

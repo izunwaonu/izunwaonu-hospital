@@ -63,7 +63,7 @@ const insuranceProviders = [
     image: "/insurance/nwsc.png",
   },
   {
-    name: "Kasese Child Development Centre",
+    name: "Enugu Ezike Child Development Centre",
     type: "Healthcare Partner",
     image: "/insurance/kcdc.png",
   },

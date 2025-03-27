@@ -124,7 +124,7 @@ const ContactPage = () => {
                     type="text"
                     {...register("name", { required: "Name is required" })}
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-colors"
-                    placeholder="John Doe"
+                    placeholder="Justus Onuh"
                   />
                   {errors.name && (
                     <p className="mt-1 text-sm text-red-600">
