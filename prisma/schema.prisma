@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// prisma/schema.prisma
+
+model Appointment {
+  id              String            @id @default(cuid())
+  referenceId     String            @unique // For patient reference
+  name            String
+  email           String
+  phone           String
+  service         String
+  appointmentDate DateTime
+  preferredTime   String
+  status          AppointmentStatus @default(PENDING)
+  additionalInfo  String? // Optional notes
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  @@index([appointmentDate])
+  @@index([status])
+  @@index([referenceId])
+  @@index([email])
+  // Enum for appointment status
+  @@map("appointments")
+}
+
+enum AppointmentStatus {
+  PENDING
+  CONFIRMED
+  COMPLETED
+  CANCELLED
+  RESCHEDULED
+}
+
+// Add indexes for common queries
+model Inquiry {
+  id        String    @id @default(cuid())
+  name      String
+  email     String
+  phone     String
+  message   String
+  package   String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime? @updatedAt
+}
