@@ -53,9 +53,9 @@ const insuranceProviders = [
     image: "/insurance/st-catherines.png",
   },
   {
-    name: "Uganda Lodges",
+    name: "Nigeria Lodges",
     type: "Corporate Partner",
-    image: "/insurance/uganda-lodges.png",
+    image: "/insurance/Nigeria-lodges.png",
   },
   {
     name: "NWSC",
@@ -68,7 +68,7 @@ const insuranceProviders = [
     image: "/insurance/kcdc.png",
   },
   {
-    name: "Prudential Assurance Uganda",
+    name: "Prudential Assurance Nigeria",
     type: "Health Insurance",
     image: "/insurance/prudential.png",
   },

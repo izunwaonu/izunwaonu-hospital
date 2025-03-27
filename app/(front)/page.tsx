@@ -22,7 +22,7 @@ export default function Home() {
     {
       question: "What insurance plans do you accept?",
       answer:
-        "We accept major insurance providers in Uganda including AAR, Jubilee, UAP, and Prudential. We also work with NHIF. Please contact our billing department or check with your insurance provider about specific coverage details. For uninsured patients, we offer flexible payment plans.",
+        "We accept major insurance providers in Nigeria including AAR, Jubilee, UAP, and Prudential. We also work with NHIF. Please contact our billing department or check with your insurance provider about specific coverage details. For uninsured patients, we offer flexible payment plans.",
     },
     {
       question: "What emergency services are available?",
