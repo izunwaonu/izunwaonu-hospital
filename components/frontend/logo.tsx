@@ -8,12 +8,12 @@ export default function Logo() {
       <Link href="/" className="flex items-center space-x-2">
         <Image
           src="/logo.png"
-          alt="Kasese Logo"
+          alt="Izunwaonu"
           width={500}
           height={500}
           className="md:w-24 w-16"
         />
-        <div className=" text-gray-900 hidden md:block">
+        <div className=" text-gray-900  md:block">
           <p className="text-xl md:text-2xl font-semibold">
             Izunwaonu Hospital
           </p>
