@@ -9,7 +9,7 @@ export function sendAdminEmail(formData: AppointmentFormData) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>New Appointment Booking - Kasese Hospital</title>
+        <title>New Appointment Booking -Izunwaonu Hospital</title>
         <style>
             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; }
             .header { background-color: #059669; color: white; padding: 20px; text-align: center; border-radius: 8px 8px 0 0; }
@@ -51,7 +51,7 @@ export function sendAdminEmail(formData: AppointmentFormData) {
             <p><em>Please review and confirm this appointment through the hospital management system.</em></p>
         </div>
         <div class="footer">
-            <p>© ${new Date().getFullYear()} Kasese Hospital. All rights reserved.</p>
+            <p>© ${new Date().getFullYear()}Izunwaonu Hospital. All rights reserved.</p>
             <p>This is an automated message. Please do not reply to this email.</p>
         </div>
     </body>
@@ -66,7 +66,7 @@ export function sendPatientEmail(formData: AppointmentFormData) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Appointment Confirmation - Kasese Hospital</title>
+        <title>Appointment Confirmation - Izunwaonu Hospital</title>
         <style>
             body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; }
             .header { background-color: #059669; color: white; padding: 20px; text-align: center; border-radius: 8px 8px 0 0; }
@@ -84,7 +84,7 @@ export function sendPatientEmail(formData: AppointmentFormData) {
         </div>
         <div class="content">
             <p>Dear ${formData.name},</p>
-            <p>Thank you for choosing Kasese Hospital for your healthcare needs. We have received your appointment request and are pleased to confirm the following details:</p>
+            <p>Thank you for choosing Izunwaonu Hospital for your healthcare needs. We have received your appointment request and are pleased to confirm the following details:</p>
             
             <div class="appointment-card">
                 <h3>Your Appointment Details:</h3>
@@ -113,20 +113,20 @@ export function sendPatientEmail(formData: AppointmentFormData) {
             </div>
 
             <p style="text-align: center;">
-                <a href="tel:+256XXXXXXXX" class="cta-button">Call Us</a>
+                <a href="tel:+2348138390681" class="cta-button">Call Us</a>
             </p>
 
             <div class="contact-info">
                 <h4>Need to Reschedule?</h4>
                 <p>If you need to reschedule or cancel your appointment, please contact us at least 24 hours in advance:</p>
-                <p>📞 Phone: +256 XXX XXX XXX</p>
-                <p>✉️ Email: appointments@kasesehospital.com</p>
+                <p>📞 Phone: +2348138390681</p>
+                <p>✉️ Email: admin@izunwaonu.com.ng</p>
             </div>
         </div>
         <div class="footer">
-            <p>© ${new Date().getFullYear()} Kasese Hospital. All rights reserved.</p>
-            <p>123 Hospital Road, Kasese, Uganda</p>
-            <p>www.kasesehospital.com</p>
+            <p>© ${new Date().getFullYear()}Izunwaonu Hospital. All rights reserved.</p>
+            <p>104, Igogoro, Enugu Ezike, USA</p>
+            <p>portfolio.izunwaonu.com.ng</p>
         </div>
     </body>
     </html>
